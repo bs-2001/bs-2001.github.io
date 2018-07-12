@@ -34,6 +34,7 @@
     }
     function insertData (data) {
         //var data=JSON.parse(data)
+        alert (data);
         $("#pic").css("background", "url('data:image/jpeg;base64,"+data.imgData+"') 0;");
         if (data.isCalendar) {
             renderCalendar(data.targetDate);
