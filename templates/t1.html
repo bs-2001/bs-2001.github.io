@@ -24,9 +24,10 @@
     <hr style="margin: 24px 36px 12px 36px; border-color: #eee">
     <input id="targetDate" type="hidden" value="">
 <script>    
-    function renderCalendar (date) {
+    function renderCalendar (date1) {
+        var date = new Date;
+        date.setTime(date1);
         var monthName=["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
-        var date=date.getDate();
         $("#year").html(date.getFullYear());
         var mIdx = date.getMonth();
         $("#month").html(monthName[mIdx]);
