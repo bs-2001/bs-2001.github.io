@@ -32,8 +32,8 @@
         dd = dd < 10 ? "0" + dd.toString() : dd.toString();
         $("#day").html(dd);
     }
-    function insertData (passData) {
-        var data = JSON.parse(passData);
+    function insertData (data) {
+        //var data = JSON.parse(passData);
         $("#pic").css("background", "url('data:image/jpeg;base64,"+data.imgData+"') 0;");
         if (data.isCalendar) {
             renderCalendar(data.targetDate);
@@ -42,8 +42,6 @@
     }
     $(document).ready(function(){
         $("#pic").height($("#pic").width());
-        var passData=window.location.hash.substr(1);
-        insertData(passData);
     });
 
 
