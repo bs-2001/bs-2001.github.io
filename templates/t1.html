@@ -10,7 +10,7 @@
 </head>
 
 <body style="background: #E9E9E6; padding: 20px">
-    <div style="margin: 5px; border-radius: 10px; background-size: cover; color: #fff" id="pic">
+    <div style="margin: 5px; border-radius: 10px; background-position: center center; background-size: cover; color: #fff" id="pic">
         <div id="calendar" style="margin: 5px; font-family: 'Apple SD Gothic Neo'; text-align: center; width: 60px; text-shadow: #E9E9E6, 2px 2px 2px">
             <div id="month" style="padding-top: 8px; font-size: 17px"></div>
             <div id="day" style="font-size: 28px"></div>
@@ -22,6 +22,7 @@
         天青色等烟雨，而我在等你。
     </div>
     <hr style="margin: 24px 36px 12px 36px; border-color: #eee">
+    <input type="targetDate" type="hidden">
 <script>    
     function renderCalendar (date) {
         var monthName=["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
@@ -32,17 +33,11 @@
         dd = dd < 10 ? "0" + dd.toString() : dd.toString();
         $("#day").html(dd);
     }
-    function insertData (data) {
-        //var data=JSON.parse(data)
-        alert (data);
-        $("#pic").css("background", "url('data:image/jpeg;base64,"+data.imgData+"') 0;");
-        if (data.isCalendar) {
-            renderCalendar(data.targetDate);
-        }
-        $("#word").html(data.txtContent);
-    }
     $(document).ready(function(){
         $("#pic").height($("#pic").width());
+    });
+    $("#targetDate").change(function() {
+        renderCalendar($("#targetData").val());
     });
 
 
