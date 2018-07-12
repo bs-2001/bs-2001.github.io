@@ -22,10 +22,11 @@
         天青色等烟雨，而我在等你。
     </div>
     <hr style="margin: 24px 36px 12px 36px; border-color: #eee">
-    <input id="targetDate" type="hidden">
+    <input id="targetDate" type="hidden" value="">
 <script>    
     function renderCalendar (date) {
         var monthName=["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+        var date=date.getDate();
         $("#year").html(date.getFullYear());
         var mIdx = date.getMonth();
         $("#month").html(monthName[mIdx]);
