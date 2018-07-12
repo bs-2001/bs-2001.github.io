@@ -33,7 +33,7 @@
         $("#day").html(dd);
     }
     function insertData (data) {
-        var data=JSON.parse(data)
+        //var data=JSON.parse(data)
         $("#pic").css("background", "url('data:image/jpeg;base64,"+data.imgData+"') 0;");
         if (data.isCalendar) {
             renderCalendar(data.targetDate);
