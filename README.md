@@ -1,7 +1,8 @@
 # bs2001的JSBox脚本集
 
 
-## 日签
+# [日签 for JSBox](https://github.com/bs-2001/riqian-jsbox)
+
 **做一张图，写一段字，记录美好的生活**
 
 ### 简介
@@ -11,23 +12,23 @@
 
 ### 生成的日签示例
 
-![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3188.JPG)
+![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3188.jpg)
 
-![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3192.JPG)
+![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3192.jpg)
 
-![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3215.JPG)
+![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3215.jpg)
 
-![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3219.JPG)
+![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3219.jpg)
 
 ### 界面截图
 
-![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3235.PNG)
+![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3235.png)
 
-![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3236.PNG)
+![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3236.png)
 
-![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3237.PNG)
+![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3237.png)
 
-![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3238.PNG)
+![](https://github.com/bs-2001/riqian-jsbox/raw/master/screenshot/IMG_3238.png)
 
 
 ### 声明
